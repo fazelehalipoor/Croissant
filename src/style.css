@@ -1,3 +1,7 @@
+body {
+  background-color: #f8e8a6;
+  font-family: "Courier New", Courier, monospace;
+}
 h1,
 p,
 .links {
@@ -5,4 +9,11 @@ p,
 }
 .links a {
   margin: 10px;
+  text-decoration: none;
+}
+.croissant-picture {
+  display: block;
+  margin: 20px auto;
+  max-width: 100%;
+  border-radius: 10px;
 }
